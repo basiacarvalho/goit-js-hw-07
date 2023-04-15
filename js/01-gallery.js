@@ -21,7 +21,6 @@ function createGalleryItems() {
   document.querySelector('.gallery').append(...items);
 }
 
-console.log(galleryItems);
 createGalleryItems();
 
 const gallery = document.querySelector('.gallery');
